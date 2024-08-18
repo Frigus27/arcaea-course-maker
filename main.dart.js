@@ -41326,7 +41326,7 @@ A.UM.prototype={
 $0(){this.a.iz(this.b)},
 $S:0}
 A.UP.prototype={
-$1(a){var s=null,r=this.b,q=t.E,p=this.c,o=A.cT(A.oZ(A.a([A.cT(A.a3t(A.a([B.Br,A.Xz(A.a5Y(r,B.Cc))],q),B.be,B.bP),40,s),A.cT(A.a3t(A.a([B.Bs,A.Xz(A.a5Y(p,B.Cd))],q),B.be,B.bP),40,s)],q),B.bX,B.be,B.bP),120,s)
+$1(a){var s=null,r=this.b,q=t.E,p=this.c,o=A.cT(A.oZ(A.a([A.cT(A.a3t(A.a([B.Br,A.Xz(A.a5Y(r,B.Cd))],q),B.be,B.bP),40,s),A.cT(A.a3t(A.a([B.Bs,A.Xz(A.a5Y(p,B.Cc))],q),B.be,B.bP),40,s)],q),B.bX,B.be,B.bP),120,s)
 return A.agB(A.a([A.jW(B.je,new A.UN(a),s),A.jW(B.jd,new A.UO(this.a,p,r,a),s)],q),o,B.P9)},
 $S:74}
 A.UN.prototype={
@@ -41334,7 +41334,7 @@ $0(){A.ip(this.a,!1).md(!1)},
 $S:0}
 A.UO.prototype={
 $0(){var s,r=this,q=r.b.a.a
-if(q.length!==0&&r.c.a.a.length!==0)if(q.toLowerCase()==="past"||q.toLowerCase()==="present"||q.toLowerCase()==="future"||q.toLowerCase()==="beyond"){s=r.a
+if(q.length!==0&&r.c.a.a.length!==0)if(q.toLowerCase()==="past"||q.toLowerCase()==="present"||q.toLowerCase()==="future"||q.toLowerCase()==="beyond"||q.toLowerCase()==="eternal"){s=r.a
 s.a=r.c.a.a
 s.b=q.toLowerCase()
 A.ip(r.d,!1).md(!0)}},
@@ -78041,9 +78041,9 @@ B.xL=new A.ei("assets/course/cirno.jpg")
 B.C8=new A.fd(B.xL,null,null,null)
 B.am=A.a(s([]),t.oU)
 B.Cb=new A.jv("\ufffc",null,null,!0,!0,B.am)
+B.Cc=new A.l0(null,null,null,null,null,null,null,null,null,"\u8f93\u5165\u96be\u5ea6\uff0c\u5e94\u4e3apast, present, future, beyond, eternal\u4e4b\u4e00",null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
 B.Sq=new A.l0(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.Cc=new A.l0(null,null,null,null,null,null,null,null,null,"\u8f93\u5165\u7b49\u7ea7",null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.Cd=new A.l0(null,null,null,null,null,null,null,null,null,"\u8f93\u5165\u96be\u5ea6\uff0c\u5e94\u4e3apast, present, future, beyond\u4e4b\u4e00",null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.Cd=new A.l0(null,null,null,null,null,null,null,null,null,"\u8f93\u5165\u7b49\u7ea7",null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
 B.lF=new A.l0(null,null,null,null,null,null,null,null,null,"\u8f93\u5165\u6587\u672c\u2026\u2026",null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
 B.Cg=new A.ii(0,0.1,B.aq)
 B.Cf=new A.ii(0.125,0.25,B.aq)
